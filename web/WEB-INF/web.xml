@@ -4,8 +4,16 @@
         <servlet-name>DemoCalc</servlet-name>
         <servlet-class>testjavaweb.DemoCalc</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SumaServlet</servlet-name>
+        <servlet-class>testjavaweb.SumaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>DemoCalc</servlet-name>
         <url-pattern>/DemoCalc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SumaServlet</servlet-name>
+        <url-pattern>/SumaServlet</url-pattern>
     </servlet-mapping>
 </web-app>
